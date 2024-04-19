@@ -168,30 +168,33 @@ body {
 
 .mess {
     text-align: left;
-    width: 700px;    
+    width: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
 }
 
 .ident{
     margin-left: 0px;
+    margin-right: 0px;
     text-align: left;
-    color:red;
+    /* color:red; */
     width: 300px;
 }
 
 .clock {
     margin-left: 0px;
-    text-align: center;
+    text-align: right;
     color:pink;
     width: 300px;
-
 }
 
 
-.cards {
-    /* display: flex; */
-    /* margin: 5px; */
+/* .cards {
+    display: flex;
+    margin: 5px;
 
-}
+} */
 /* 
 .card{
 

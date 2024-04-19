@@ -1,3 +1,26 @@
+README:
+
+In this Tech Deliverable, my tech stacks consists of React, CSS, and HTML for the frontend
+and Python and FAST API for the backend. How to launch this project is in the given manual below.
+
+
+Accomplishments: 
+Through this project, I learned how to utilize and create components and how to strategically use
+Flex to design the website. I also utilized JSON in order to connect my backend API to the frontend 
+and more so, fetch this data in frontend. 
+
+Some Problems!!:
+I had a local computer issue where a .git folder was in the main root of my device. In order to
+resolve this issue, I had to unfortunately delete .git which erased all my local commits which explains
+why I do not have as many commits. However, I still tried to continued to make as many commits as I can
+in order to show my progress.    
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
 # Hack at UCI Tech Organizer Deliverable
 
 Thank you for your interest in applying to the Hack at UCI Tech team!
