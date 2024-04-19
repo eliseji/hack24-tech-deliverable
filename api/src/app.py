@@ -2,11 +2,15 @@ from datetime import datetime
 from typing import TypedDict
 
 from fastapi import FastAPI, Form, status
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, JSONResponse
 
 from services.database import JSONDatabase
 
+from datetime import timedelta
+
+
 app = FastAPI()
+
 
 
 class Quote(TypedDict):
@@ -46,5 +50,44 @@ def post_message(name: str = Form(), message: str = Form()) -> RedirectResponse:
     # You may modify the return value as needed to support other functionality
     return RedirectResponse("/", status.HTTP_303_SEE_OTHER)
 
+# @app.route("/quotes")
+# @app.get("/quotes/{max_age}")
+@app.get('/quotes')
+def get_mess(time: str):
 
+    age = 0
+
+    if time == 'week':
+        age =7
+
+    elif time == 'month':
+        age = 30
+
+    else:
+        return JSONResponse([quote for quote in database["quotes"]])
+
+    current = datetime.now()
+    diff = current - timedelta(days=age)
+
+    db_quotes = [quote for quote in database["quotes"] if datetime.strptime(quote["time"], "%Y-%m-%dT%H:%M:%S") >= diff]
+
+    
+    return JSONResponse(db_quotes)
+    # return qutes
+    # a= [
+	# 	{
+	# 		"name": "Peter Anteater",
+	# 		"message": "Zot Zot Zot!",
+	# 		"time": "1965-11-30T13:52:09"
+	# 	}]  
+    # return a
+
+    # JSON.stringify(a)
+    
+
+    # return 
 # TODO: add another API route with a query parameter to retrieve quotes based on max age
+
+
+# a = get_mess('Week')
+# print(a)

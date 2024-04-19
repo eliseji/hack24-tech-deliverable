@@ -1,0 +1,198 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700 */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900 */
+
+.red-hat-display-section {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+  
+  
+body {
+  
+      font-family: "Red Hat Display", sans-serif;;
+      background-color: rgb(248, 248, 248);
+      color: rgb(42, 42, 42);
+}
+  
+.container {
+      display: flex; 
+      justify-content: space-between; 
+}
+
+.top {
+    display: flex;
+}
+
+.divider-line1 {
+    margin-top: 50px;
+    /* margin-bottom: 0px; */
+    margin-left: 50px;
+    width: 100%;
+    height: 3px;
+    background-color:rgb(42, 42, 42);
+}
+  
+  
+.title {
+      text-align: center;
+      font-weight: 400px;
+      font-size: 180px;
+      margin-top: 0px;
+}
+
+.req-image {
+
+    margin-left: 50px;
+}
+
+.iconiccc {
+    width: 100px; 
+    height: 100px;
+
+}
+  
+.sub-title {
+      margin-top: 20px;
+      margin-bottom: 0px;
+      text-align: right;
+      font-weight: 500px;
+      font-size: 50px;
+      padding-right: 50px;
+      padding-top: 0px;
+      
+      /* padding-left: 100px; */
+}
+  
+.imageee {
+    height: 1000px;
+    width:600px;
+
+    margin-left: 150px;
+    margin-top: 0px;
+    align-items: left;
+    
+}
+
+.container-quote {
+
+    /* margin-left: 80px; */
+    margin-right: 40px;
+}
+
+.submit-quote {
+    
+    /* margin-top: 350px; */
+    margin-top: 550px;
+    font-weight: 500px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.submit {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 10px;
+    /* margin-right: 20px; */
+}
+
+.submit-but {
+
+    font-weight: bold;
+    font-size: 30px;
+    border: none; 
+    background-color: rgb(42, 42, 42);;
+    color:rgb(238, 235, 231);
+    border-radius: 3px;
+    padding: 6px 200px;
+    margin-left: 0px;
+    margin-top: 40px;
+
+}
+
+.enter-smt {
+
+    height: 30px;
+    width:200px;
+}
+
+.prev-quote {
+    font-weight: 500px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.prev-para {
+    font-weight: 300px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.messages {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 300px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.divider-line {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    width: 100%;
+    height: 3px;
+    background-color:rgb(42, 42, 42);
+}
+
+.req-image2 {
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.cloud-pic {
+    width: 400px;
+    height: 250px;
+    background-color: black;
+}
+
+
+
+.options {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: rgb(42, 42, 42);
+    border: none; 
+    padding: 15px 20px;  
+    border-radius: 2px;
+    margin-bottom: 30px;  
+}
+
+.second-half {
+    margin-left: 50px;
+}
+
+.flyyy {
+    float: right;
+    margin-right: 50px;
+    margin-top: 0px;
+    
+}
+
+.butterfly{
+
+    width:500px;
+    height:300px;
+    /* border: 6px rgb(42, 42, 42); */
+    /* border: 3px; */
+}
