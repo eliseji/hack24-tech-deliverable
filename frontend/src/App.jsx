@@ -2,6 +2,7 @@ import "./App.css";
 import quoteBookIcon from "./abstract.png";
 import butterfly from "./butterfly.gif"
 import requiredIcon from "./quotebook.png"
+import dior from "./dior.png"
 import React, { useState, useEffect } from 'react';
 import { DisplayQuotes } from "./components/DisplayQuotes";
 
@@ -29,58 +30,54 @@ function App() {
 
 			<div className="top">
 				<div className='req-image'>
-						<img src={requiredIcon} alt="iconic" className="iconiccc"/>
+					<img src={requiredIcon} alt="iconic" className="iconiccc" />
 				</div>
-				<div class = 'divider-line1'></div>
+				{/* <div class = 'divider-line1'></div> */}
 			</div>
 
-			
-			
+
+
 			<h1 className='title'>HACK AT UCI</h1>
 
 			<div class='container'>
 				<div class='picture'>
 					<img src={quoteBookIcon} alt="Quote Book Icon" className="imageee" />
 				</div>
+
 				<div class='headers'>
 					<h3 class='sub-title'> TECH-DELIVERABLE </h3>
 					<h4 class='sub-title'> BY ELISE JI</h4>
 
-					{/* <div className="divider-line"></div> */}
-
 					<div className="container-quote">
+
 						<h2 class='submit-quote'>SUBMIT A QUOTE</h2>
 						{/* TODO: implement custom form submission logic to not refresh the page */}
-						<form action="/api/quote" method="post">
+						<form action="/api/quote" method="post" className="sub-box">
 							<div>
 								<label class='submit' htmlFor="input-name">NAME</label>
-								<input class='enter-smt' type="text" name="name" id="input-name" required />
+								<input class='enter-smt1' type="text" name="name" id="input-name" required />
 							</div>
 
 							<div>
 								<label class='submit' htmlFor="input-message">QUOTE</label>
-								<input class='enter-smt' type="text" name="message" id="input-message" required />
+								<input class='enter-smt2' type="text" name="message" id="input-message" required />
 							</div>
 
 							<button class='submit-but' type="submit">Submit</button>
 						</form>
 
-
 					</div>
-
 				</div>
-
 			</div>
 
-			{/* <div class="divider-line"></div> */}
 
 			<div className="bottom">
 
-				<div class = 'divider-line'></div>
+				<div class='divider-line'></div>
 				<div className='req-image2'>
-						<img src={requiredIcon} alt="iconic" className="iconiccc"/>
+					<img src={requiredIcon} alt="iconic" className="iconiccc" />
 				</div>
-				
+
 			</div>
 
 
@@ -107,7 +104,7 @@ function App() {
 					<p>Every day</p> */}
 					{/* {JSON.stringify(data)} */}
 
-					{data && <DisplayQuotes quotes={data}/>}
+					{data && <DisplayQuotes quotes={data} />}
 
 				</div>
 			</div>
