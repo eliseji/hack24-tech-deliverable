@@ -77,7 +77,7 @@ body {
   
 }
 
-.blue-bow {
+/* .blue-bow {
     height: 80px;
     width: 80px;
     background-color: transparent;
@@ -88,7 +88,7 @@ body {
     height: 80px;
     width: 80px;
     background-color: transparent;
-}
+} */
 
 .submit-quote {
     
@@ -96,7 +96,7 @@ body {
     margin-top: 550px;
     font-weight: 500px;
     font-size: 40px;
-    text-align: right;
+    text-align: left;
     margin-bottom: 50px;
 }
 
@@ -137,7 +137,7 @@ body {
 .prev-quote {
     font-weight: 500px;
     font-size: 40px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .prev-para {
@@ -148,6 +148,7 @@ body {
 }
 
 .messages {
+    display: flex;
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 300px;
