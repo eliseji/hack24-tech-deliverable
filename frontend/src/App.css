@@ -147,12 +147,57 @@ body {
 
 }
 
+
 .messages {
-    display: flex;
+    /* display: flex; */
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 300px;
+    /* border: 10px solid black;  */
 }
+
+.card-cont{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+
+    margin:10px;
+}
+
+.mess {
+    text-align: left;
+    width: 700px;    
+}
+
+.ident{
+    margin-left: 0px;
+    text-align: left;
+    color:red;
+    width: 300px;
+}
+
+.clock {
+    margin-left: 0px;
+    text-align: center;
+    color:pink;
+    width: 300px;
+
+}
+
+
+.cards {
+    /* display: flex; */
+    /* margin: 5px; */
+
+}
+/* 
+.card{
+
+    border: 10px solid black;
+} */
+
 
 .bottom {
     display: flex;

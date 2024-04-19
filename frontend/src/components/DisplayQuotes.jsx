@@ -1,11 +1,21 @@
 
 
 export function DisplayQuotes({quotes}) {
-    return <div>{quotes.map((quote)=> <Quote message={quote.message}></Quote>)}</div>
+    return <div>{quotes.map((quote)=> <Quote message={quote.message} name = {quote.name} time = {quote.time}></Quote> )}</div>
 }
 
-function Quote({message}) { 
+// name = {quote.name} time = {quote.time}
 
-    return <div>- {message}</div>
+function Quote({message, name, time}) { 
+
+    return (
+        <div className="card-cont"> 
+            {/* {message} */}
+            <p class='mess'>{message}</p>
+            <p class='ident'>{name}</p>
+            <p classs='clock'>{time}</p>
+        </div>
+
+    )
 }
 

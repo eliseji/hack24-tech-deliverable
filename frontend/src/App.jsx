@@ -94,9 +94,22 @@ function App() {
 
 				{/* TODO: Display the actual quotes from the database */}
 				<div className="messages">
-					{data && <DisplayQuotes quotes={data} />}
-					{data && <DisplayName quotes={data} />}
-					{data && <DisplayDate quotes={data} />}
+
+					<div className="cards">
+						{data && <div className="card"> <DisplayQuotes quotes={data} /></div>}
+					</div>
+					
+					{/* <div className="cards">
+						{data && <div className="card"> <DisplayQuotes quotes={data} /></div>}
+					</div>
+					
+					<div className='cards'>
+						{data && <div className="card"> <DisplayName quotes={data} /></div>}
+					</div>
+
+					<div className="cards">
+						{data && <div className="card"> <DisplayDate quotes={data} /></div>}
+					</div> */}
 
 				</div>
 			</div>
