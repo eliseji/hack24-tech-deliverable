@@ -11,7 +11,7 @@ function Quote({message, name, time}) {
     return (
         <div className="card-cont"> 
 
-            <p class='mess'>- {message}</p>
+            <p class='mess'># {message}</p>
             <p class='ident'>{name}</p>
             <p classs='clock'>{time}</p>
         </div>

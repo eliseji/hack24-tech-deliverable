@@ -2,11 +2,10 @@ import "./App.css";
 import quoteBookIcon from "./abstract.png";
 import butterfly from "./butterfly.gif"
 import requiredIcon from "./quotebook.png"
-import dior from "./dior.png"
 import React, { useState, useEffect } from 'react';
 import { DisplayQuotes } from "./components/DisplayQuotes";
-import { DisplayName } from "./components/DisplayName";
-import { DisplayDate } from "./components/DisplayDate";
+// import { DisplayName } from "./components/DisplayName";
+// import { DisplayDate } from "./components/DisplayDate";
 
 function App() {
 
@@ -98,7 +97,7 @@ function App() {
 					<div className="cards">
 						{data && <div className="card"> <DisplayQuotes quotes={data} /></div>}
 					</div>
-					
+
 					{/* <div className="cards">
 						{data && <div className="card"> <DisplayQuotes quotes={data} /></div>}
 					</div>
