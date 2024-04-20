@@ -6,14 +6,15 @@ and Python and FAST API for the backend. How to launch this project is in the gi
 
 Accomplishments: 
 Through this project, I learned how to utilize and create components and how to strategically use
-Flex to design the website. I also utilized JSON in order to connect my backend API to the frontend 
-and more so, fetch this data in frontend. 
+Flex to design the website. At first I created 3 components for each piece of data. However, I wanted to display in a "flashcard" manner so I only utilized 1 component that contained all the data. This way, I found styling it was easier. I also utilized JSON in order to connect my backend API to the frontend 
+in order to fetch the data. 
 
-Some Problems!!:
+Some Problems!!! :
 I had a local computer issue where a .git folder was in the main root of my device. In order to
-resolve this issue, I had to unfortunately delete .git which erased all my local commits which explains
-why I do not have as many commits. However, I still tried to continued to make as many commits as I can
-in order to show my progress.    
+resolve this issue unfortunately, was to delete .git in my root which erased all my local commits. This is the reason why I do not have as many commits on my log. However, I still tried to contniue to make as many commits as I can in order to show my progress.    
+
+
+
 
 
 
